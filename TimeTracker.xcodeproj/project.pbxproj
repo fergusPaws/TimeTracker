@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		430B56102319878D00D409C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B560F2319878D00D409C7 /* AppDelegate.swift */; };
-		430B56122319878D00D409C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B56112319878D00D409C7 /* ViewController.swift */; };
 		430B56152319878D00D409C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430B56132319878D00D409C7 /* Main.storyboard */; };
 		430B56182319878D00D409C7 /* TimeTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 430B56162319878D00D409C7 /* TimeTracker.xcdatamodeld */; };
 		430B561A2319878E00D409C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430B56192319878E00D409C7 /* Assets.xcassets */; };
 		430B561D2319878E00D409C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430B561B2319878E00D409C7 /* LaunchScreen.storyboard */; };
+		436F292B231C695A00763C4B /* HobbyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436F292A231C695A00763C4B /* HobbyDetailsViewController.swift */; };
+		436F292D231C6F8600763C4B /* AddHobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436F292C231C6F8600763C4B /* AddHobbyViewController.swift */; };
+		43896806231B643C007C931B /* Hobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43896805231B643C007C931B /* Hobby.swift */; };
+		43896808231B6A5E007C931B /* HobbieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43896807231B6A5E007C931B /* HobbieTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		430B560C2319878D00D409C7 /* TimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		430B560F2319878D00D409C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		430B56112319878D00D409C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		430B56142319878D00D409C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		430B56172319878D00D409C7 /* TimeTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeTracker.xcdatamodel; sourceTree = "<group>"; };
 		430B56192319878E00D409C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		430B561C2319878E00D409C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		430B561E2319878E00D409C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436F292A231C695A00763C4B /* HobbyDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyDetailsViewController.swift; sourceTree = "<group>"; };
+		436F292C231C6F8600763C4B /* AddHobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHobbyViewController.swift; sourceTree = "<group>"; };
+		43896805231B643C007C931B /* Hobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hobby.swift; sourceTree = "<group>"; };
+		43896807231B6A5E007C931B /* HobbieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbieTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				430B560F2319878D00D409C7 /* AppDelegate.swift */,
-				430B56112319878D00D409C7 /* ViewController.swift */,
 				430B56132319878D00D409C7 /* Main.storyboard */,
+				43896807231B6A5E007C931B /* HobbieTableViewController.swift */,
+				436F292A231C695A00763C4B /* HobbyDetailsViewController.swift */,
 				430B56192319878E00D409C7 /* Assets.xcassets */,
 				430B561B2319878E00D409C7 /* LaunchScreen.storyboard */,
 				430B561E2319878E00D409C7 /* Info.plist */,
 				430B56162319878D00D409C7 /* TimeTracker.xcdatamodeld */,
+				43896805231B643C007C931B /* Hobby.swift */,
+				436F292C231C6F8600763C4B /* AddHobbyViewController.swift */,
 			);
 			path = TimeTracker;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				430B56122319878D00D409C7 /* ViewController.swift in Sources */,
+				43896808231B6A5E007C931B /* HobbieTableViewController.swift in Sources */,
+				436F292B231C695A00763C4B /* HobbyDetailsViewController.swift in Sources */,
 				430B56102319878D00D409C7 /* AppDelegate.swift in Sources */,
+				436F292D231C6F8600763C4B /* AddHobbyViewController.swift in Sources */,
+				43896806231B643C007C931B /* Hobby.swift in Sources */,
 				430B56182319878D00D409C7 /* TimeTracker.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
